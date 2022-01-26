@@ -1,16 +1,18 @@
-html, body {
-  margin: 0px;
-  padding: 0px;
+html,
+body {
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
-  background: url('/assets/images/login_bg.jpg') no-repeat center;
+  /* background-color: pink; */
+  background: url('../images/login_bg.jpg') no-repeat center;
   background-size: cover;
 }
 
 .loginAndRegBox {
   width: 400px;
   height: 310px;
-  background-color: #ffffff;
+  background-color: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -19,7 +21,7 @@ html, body {
 
 .title-box {
   height: 60px;
-  background: url('/assets/images/login_title.png') no-repeat center;
+  background: url('../images/login_title.png') no-repeat center;
 }
 
 .reg-box {
@@ -43,12 +45,8 @@ html, body {
   position: relative;
 }
 
-.layui-icon {
+.layui-icon{
   position: absolute;
   left: 10px;
   top: 10px;
-}
-
-.layui-input {
-  padding-left: 32px;
 }
